@@ -1,0 +1,14 @@
+#1.
+grep . plik.txt
+
+#2.
+grep [[:digit:]]. pl*
+
+#3.
+grep ........r.  *
+
+#4.
+grep .bash$ /etc/passwd
+
+#5.
+grep -e "\b[VIMDCXL]" plik.txt
